@@ -1,0 +1,12 @@
+{
+    "font_size": 25,
+    "font_family": "Apple Braille",
+    "font_color": "#feffff",
+    "bg_color": "#000000",
+    "recent_files": [
+        "/Users/jj/work/temp/test2.txt",
+        "/Users/jj/work/temp/test.txt"
+    ],
+    "autosave_enabled": true,
+    "autosave_interval": 30000
+}

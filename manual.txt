@@ -1,0 +1,120 @@
+--- Simple Text Editor - User Manual (v1.1) ---
+
+Thank you for using the Simple Text Editor! This is a lightweight, customizable, and multi-window text editor designed for simplicity and ease of use.
+
+GETTING STARTED
+
+There is no installation required!
+
+The editor is a standalone application. To start, simply double-click the application file:
+
+On Windows: Double-click Text Editor.exe
+
+On macOS: Double-click Text Editor.app
+
+The first time you run the editor, it will create a settings file (editor_settings.json) in the same folder.
+
+CORE FEATURES
+
+MULTI-WINDOW SUPPORT
+You can open multiple independent editor windows at the same time. This is perfect for comparing files or working on multiple documents at once. Use the "File > New Window" menu option to open another editor.
+
+FILE OPERATIONS
+
+New File: Clears the current window to start a new document.
+
+Open: Opens a file from your computer.
+
+Save / Save As: Saves your work.
+
+Recent Files: The "File" menu contains a list of your 5 most recently opened files for quick access.
+
+AUTOSAVE
+The editor will automatically save your work every 30 seconds to prevent data loss. You can turn this feature on or off from the "File > Autosave" checkbutton.
+
+CUSTOMIZATION
+You can personalize the look and feel of your editor via the "Format" menu:
+
+Change Font: Choose from the fonts available on your system.
+
+Change Font Color: Select a new color for your text.
+
+Change Background Color: Select a new color for the editor's background.
+All your customization choices are saved for your next session.
+
+STATUS BAR
+The bar at the bottom of the window provides useful information:
+
+The current Font Family and Size.
+
+The total number of characters in the document.
+
+KEYBOARD SHORTCUTS
+
+For macOS Users (Cmd key):
+
+New File:          Cmd + N
+
+New Window:        Cmd + Shift + N
+
+Open File:         Cmd + O
+
+Save File:         Cmd + S
+
+Save As:           Cmd + Shift +S
+
+Increase Font:     Cmd + + (plus)
+
+Decrease Font:     Cmd + - (minus)
+
+Undo:              Cmd + Z
+
+Redo:              Cmd + Y
+
+Cut:               Cmd + X
+
+Copy:              Cmd + C
+
+Paste:             Cmd + V
+
+For Windows & Linux Users (Ctrl key):
+
+New File:          Ctrl + N
+
+New Window:        Ctrl + Shift + N
+
+Open File:         Ctrl + O
+
+Save File:         Ctrl + S
+
+Save As:           Ctrl + Shift + S
+
+Increase Font:     Ctrl + + (plus)
+
+Decrease Font:     Ctrl + - (minus)
+
+Undo:              Ctrl + Z
+
+Redo:              Ctrl + Y
+
+Cut:               Ctrl + X
+
+Copy:              Ctrl + C
+
+Paste:             Ctrl + V
+
+CONFIGURATION FILE
+
+Your settings (font choices, colors, recent files, etc.) are stored in a file named editor_settings.json. This file is located in the same folder as the application.
+
+If you ever want to reset the editor to its original, default settings, simply delete the editor_settings.json file. A new one will be created the next time you launch the editor.
+
+FAQ
+
+Q: My settings didn't save! Why?
+A: Settings are saved when the VERY LAST editor window is closed. If you have multiple windows open, your most recent changes will only be saved when you close the final one.
+
+Q: The application won't start. What should I do?
+A: Ensure you have the necessary permissions to run applications in the folder where it's located. On macOS, you may need to right-click the app and choose "Open" the very first time you run it.
+
+Enjoy using your new text editor!
